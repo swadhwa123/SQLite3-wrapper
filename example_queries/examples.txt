@@ -1,1 +1,3 @@
 This folder contains examples of SQLite3 queries
+
+Project overview: https://docs.google.com/presentation/d/1Xarn0oowpogUH9NmHpkTC-sKIEeIR__ac2_Azgp5Ilo/edit#slide=id.p
