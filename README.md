@@ -15,6 +15,6 @@ PrediXcan paper (see methods): https://www.nature.com/articles/ng.3367
     the user and query databases from PredictDB.org to gather info 
     about geneotype, gene expression, and associations. This info 
     will be placed in a .csv file for the user to parse/use. 
-# 4)  Software Needed:
+# 4)  SOFTWARE NEEDED:
     SQL, Pandas, .db files(input)
 # 5)	PLAN OF ACTION
