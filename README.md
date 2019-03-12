@@ -3,3 +3,14 @@ Developing a Python wrapper for SQLite3 to take in parameters from the user and 
 
 Summary: https://docs.google.com/presentation/d/1Xarn0oowpogUH9NmHpkTC-sKIEeIR__ac2_Azgp5Ilo/edit?usp=sharing
 PrediXcan paper (see methods): https://www.nature.com/articles/ng.3367
+# 1)	REQUIREMENT’S:
+    -Documentation (Angela)
+    -SQL querying (Carlee)
+    -CSV parsing (Shreya)
+# 2)	WHO IS OUR USER?
+    The Wheeler Lab
+# 3)	WHAT IS OUR GOAL?
+    To take parameters(gene id, gene name, # of SNPs in the model, test r^2 average, cross validation of r^2 average, etc.) from the user       and query databases from PredictDB.org to gather info about geneotype, gene expression, and associations. This info will be placed in a     .csv file for the user to parse/use. 
+# 4)  Software Needed:
+    SQL, Pandas, .db files(input)
+# 5)	PLAN OF ACTION
