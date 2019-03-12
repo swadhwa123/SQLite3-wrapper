@@ -1,2 +1,0 @@
-This folder contains examples of SQLite3 queries
-
