@@ -9,6 +9,8 @@ GTEx about: https://gtexportal.org/home/documentationPage
 
 GTEx portal: http://science.sciencemag.org/content/348/6235/648
 
+Description of layout of .db files: https://s3.amazonaws.com/predictdb2/contributed/MESA-2018-05-v2/MESAdb_2018-05-28_updated_README.txt
+
 # 1)	REQUIREMENT’S:
     -Documentation (Angela)
     -SQL querying (Carlee)
