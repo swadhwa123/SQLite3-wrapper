@@ -3,6 +3,8 @@ Developing a Python wrapper for SQLite3 to take in parameters from the user and 
 
 Summary: https://docs.google.com/presentation/d/1Xarn0oowpogUH9NmHpkTC-sKIEeIR__ac2_Azgp5Ilo/edit?usp=sharing
 
+Presentation 1 Link(can view only): https://docs.google.com/presentation/d/1lDZIZd-aw6z8_7F-tAtBdKWFPR-5bLE_pI3pmGNPjFM/edit?usp=sharing
+
 PrediXcan paper (see methods): https://www.nature.com/articles/ng.3367
 
 GTEx about: https://gtexportal.org/home/documentationPage
