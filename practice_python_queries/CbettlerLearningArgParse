@@ -1,3 +1,7 @@
+#load in list of gene names you want to query
+#APOE and PSRC
+#^Learning argparse to help accomplish this 
+
 import sqlite3
 import pandas
 import os
