@@ -35,5 +35,5 @@ for genename in genenames:
         
 data = pd.DataFrame(data) #make list of lists into dataframe
 data.columns = ["rs", "weight", "genename", "cv_R2_avg"] #give column names so user knows what they're looking at
-data.to_csv("practice_python_queries/rs_weights_genename_cv2R2avg.csv", index = False) #write to .csv
+data.to_csv("querying_output.csv", index = False) #write to .csv; give user option to choose this
 print("Program is completed with querying. Have a nice day :)")
