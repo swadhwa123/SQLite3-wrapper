@@ -46,3 +46,6 @@ print(args.file.readlines())
 #^Trying to apply arg parse to parsing a file of gene names
 #Still trying to figure out why this won't run
 #Attempting to avoid hardcoding the file path, still not sure if this is the best way to do this
+
+#Good video to learn argparse: https://www.youtube.com/watch?v=cdblJqEUDNo
+#Note that this code does not run properly, this is rather evidence of me trying to learn a new skill and apply it to our data. 
