@@ -34,3 +34,28 @@ parser.add_argument("--tissue", action = "store_true", dest = "tissue", default 
 args = parser.parse_args()
 
 #then pass these arguments to further things
+
+#for db/, have the user direct to a FOLDER of db files
+  #OR have two db flags - one that iterates through a folder of .dbs and one that is for a specific .db file
+    #if ends w/ .db, it's a db (make a list of one)
+    #else find all the .dbs in that folder
+#iterate through each db file
+  #db file will be a column name in final output
+#everything is encased in one big loop around a list of db files to parse
+
+#if user did pass genes or genenames
+  #store list in genes or genenames variable
+#else
+  #select gene from extra
+  #make all genes into a list
+
+#if the user chose any general flags (anything from EXTRA, WEIGHTS, or SAMPLE INFO)
+#if chose anything from extra
+#select * from extra
+  #it'll output a tuple
+  #throw all of this into a list of lists
+    #KNOW WHAT EACH INDEX CORRESPONDS TO (see .schema)
+
+#if user chooses any weights flags
+
+#NOTE: we'll probably just query EVERYTHING (aka use *) in SQL b/c I'm more comfortable parsing in pandas than in SQL
