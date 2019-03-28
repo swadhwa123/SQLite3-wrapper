@@ -18,6 +18,11 @@ args = parser.parse_args()
 
 db = args.db  #which .db are we querying?
 genenames = np.loadtxt(args.genenames, dtype = str, ndmin = 1) #load in list of gene names you want to query
+
+'''
+db = "db/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db"  #which .db are we querying?
+genenames = np.loadtxt("practice_python_queries/genenames.txt", dtype = str, ndmin = 1) #load in list of gene names you want to query
+'''
 conn = sqlite3.connect(db) #open connection to db file
 c = conn.cursor()
 data = [] #start a list of lists to store data in (only have one dataframe to store this all in)
