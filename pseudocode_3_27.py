@@ -50,6 +50,7 @@ args = parser.parse_args() #then pass these arguments to further things
   #OR have two db flags - one that iterates through a folder of .dbs and one that is for a specific .db file
     #if ends w/ .db, it's a db (make a list of one)
     #else find all the .dbs in that folder
+    #Folder or single file, that's what this if/else hierarhcy does 
 #have giant list to make into list of lists
 #iterate through each db file
   #db file will be a column name in final output
