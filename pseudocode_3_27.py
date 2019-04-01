@@ -67,14 +67,14 @@ args = parser.parse_args() #then pass these arguments to further things
     #if the user chose any general flags (anything from EXTRA, WEIGHTS, or SAMPLE INFO)
 
       #if chose anything from extra
-        #select * from extra where gene is iterated gene
+        #select n.snps.in.model,test_R2_avg,etc. from extra where gene is iterated gene
           #it'll output a tuple
           #store all these in variables to be used later on (at least the gene)
       
       #repeat these lines for the sample info flags
 
       #if user chooses any weights flags
-        #select * from weights where gene is iterated gene
+        #select rsid,var_ID,etc. from weights where gene is iterated gene
           #it'll output a tuple
           #store all these in variables to be used later on
           #then append all information (all info in weights, all info in extra, all info in sample info flags) to list of lists
@@ -107,6 +107,7 @@ args = parser.parse_args() #then pass these arguments to further things
 
 #restrict to thresholds the user wants (see threshold flags)
   #ex. if only want cv_r2_avg > 0.1, only keep those
+   #(this will involve using a bunch of .loc)
   
 #delete duplicate rows
 #print to csv
