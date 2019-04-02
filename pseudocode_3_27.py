@@ -113,3 +113,7 @@ args = parser.parse_args() #then pass these arguments to further things
 #print to csv
   #remove indexes cause they're annoying
   
+#additional ideas:
+  #pull what the genes have been implicated in the GWAS catalog
+  
+  
