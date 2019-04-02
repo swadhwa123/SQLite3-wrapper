@@ -4,6 +4,8 @@ Created on Tue Mar 26 16:26:45 2019
 #Solution to example python queries
 #Run this program with: python practice_python_queries/Angela_solution_to_query_example.py --genenames practice_python_queries/genenames.txt --db db/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
 @author: Angela
+
+Example query: python3 /home1/cbettler/SQLite3-wrapper/example_queries/Angela_solution_to_query_example.py --genenames /home1/cbettler/SQLite3-wrapper/practice_python_queries/genenames.txt --db /home1/cbettler/SQLite3-wrapper/db/gtex_v7_Whole_Blood_imputed_europeans_tw_0.5_signif.db
 """
 
 import argparse
